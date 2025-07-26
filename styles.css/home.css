@@ -1,0 +1,207 @@
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+
+.right {
+    font-size: 1.3rem;
+}
+
+.leftsection {
+    font-size: 3rem;
+    width: 40vw;
+    margin: 50px 0px;
+}
+
+.rightsection {
+    width: 30vw;
+
+}
+
+.rightsection img {
+    width: 80%;
+    margin: 50px 0px;
+}
+
+.purple {
+    color: rgb(198, 141, 228);
+}
+
+#element {
+    color: rgb(5, 224, 244);
+}
+
+.secondsection {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section {
+    margin-bottom: 0px
+}
+
+#edubackground {
+
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 20px 20px;
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.section-title::before {
+    content: "↪";
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+.section-content {
+    font-size: 1.1rem;
+    color: #b0b0b0;
+    margin-left: 100px;
+}
+
+.section-content li {
+    margin-bottom: 10px;
+}
+
+.containerright {
+    margin-top: 10px;
+    max-width: 40vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.profile-image {
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.profile-image img {
+    width: 100%;
+    height: auto;
+}
+
+.work-with::before {
+    content: "↪";
+    margin-right: 5px;
+    font-size: 1.2rem;
+}
+
+.work-with {
+    margin-left: 100px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+}
+
+.work-with:hover {
+    color: rgb(18, 182, 233);
+    font-size: 1.1rem;
+}
+
+.thirdsection {
+    margin: auto;
+    margin-top: 10px;
+}
+
+.leftnote {
+
+    width: 40vw;
+
+}
+
+.rightnote {
+    width: 30%;
+    justify-content: space-around;
+}
+
+
+
+
+@media screen and (max-width: 400px) {
+
+
+    .firstsection {
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        margin: 10px 0px;
+    }
+
+    .leftsection p {
+        font-size: 1.5rem;
+    }
+
+    .leftsection {
+        width: 40%;
+        text-align: center;
+    }
+
+    .rightsection {
+        width: 30%;
+        text-align: center;
+    }
+
+    .rightsection img {
+        width: 80%;
+        margin: 0px 0px;
+    }
+
+    #edubackground {
+        font-size: 1.3rem;
+        margin: 0px 0px;
+    }
+
+    .containerright {
+        justify-content: center;
+        width: 40vw;
+    }
+
+    .containerleft {
+        justify-content: center;
+        width: 40vw;
+    }
+
+    .profile-image {
+        width: 100px;
+        height: 125px;
+        margin: 30px 30px;
+        margin-bottom: 10px;
+    }
+
+    .right {
+        font-size: 0.5rem;
+    }
+
+    .section-title {
+        font-size: 1rem;
+    }
+
+    .section-content {
+        font-size: 0.9rem;
+    }
+    .work-with {
+    margin-left: 50px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+}
+
+
+}

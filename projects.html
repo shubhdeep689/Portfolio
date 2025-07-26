@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="/styles.css/theme.css">
+    <style>
+        .projects-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+            width: 90vw;
+        }
+
+        .project-card {
+            background-color: #1c0d46;
+            border-radius: 8px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-card h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .project-card p {
+            font-size: 1rem;
+            margin-bottom: 15px;
+        }
+
+        .project-link {
+            text-decoration: none;
+            color: #00bcd4;
+        }
+
+        #section-one {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+
+
+
+        @media screen and (max-width: 400px) {
+            .projects-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .project-card {
+                width: 70%;
+            }
+            
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar (copy from your other pages) -->
+    <nav>
+        <div class="right" <b>Shubh's Portfolio</b> </div>
+        <div class="left">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section id="section-one">
+            <h1>My Projects</h1>
+            <div class="projects-container">
+
+
+                <div class="project-card">
+                    <h2>Project 1</h2>
+
+                    <p>Habbit-Tracker (to track bad habbit).</p>
+                    <a href="https://shubhdeep689.github.io/Habbit-tracker/" class="project-link">View Project</a>
+
+                </div>
+
+                <div class="project-card">
+                    <h2>Project 2</h2>
+
+                    <p>JARVIS (Personal Voice Assistant) Using Python.</p>
+                    <a href="https://github.com/shubhdeep689/JARVIS" class="project-link">View Project</a>
+
+                </div>
+
+                <div class="project-card">
+                    <h2>Project 3</h2>
+
+                    <p>Spotify Clone.</p>
+                    <a href="https://github.com/shubhdeep689/shubhify" class="project-link">View Project</a>
+
+                </div>
+            </div>
+        </section>
+        <section id="section-two">
+
+
+            <hr class="horizontalline">
+            <footer>
+                <div class="leftnote">
+                    &copy; All Right Reserved</div>
+                <div class="rightnote">
+
+                    <a
+                        href="https://www.linkedin.com/in/shubhdeep-singh-maan-06328a304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                        <button class="buttons">linkdin </button></a>
+                    <button class="buttons" on>Github</button>
+                    <button class="buttons" id="myBtn" onclick="ScrollTop()">Scroll Top</button>
+                </div>
+
+
+
+            </footer>
+
+        </section>
+
+
+    </main>
+
+
+</body>
+
+</html>
