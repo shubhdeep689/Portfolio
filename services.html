@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services | Shubh's Portfolio</title>
+  <link rel="stylesheet" href="styles.css/theme.css" />
+  <link rel="stylesheet" href="styles.css/home.css" />
+</head>
+
+<body>
+  <nav>
+    <div class="right"><b>Shubh's Portfolio</b></div>
+    <div class="left">
+      <ul id="navul">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <main>
+    <section class="firstsection" style="min-height: 60vh; flex-direction: column; align-items: center; justify-content: center;">
+      <div class="leftsection" style="text-align: center;">
+        <p>
+          <span class="purple" style="font-size:2.5rem;">Our Services</span>
+        </p>
+        <p style="margin-top: 30px; font-size: 1.3rem; color: #b0b0b0;">
+          We are working on providing a range of services soon.<br>
+          Stay tuned for updates!
+        </p>
+        <img src="/imgs/bg.png" alt="Coming Soon" style="width:180px; margin-top:40px; opacity:0.7;">
+      </div>
+    </section>
+    <hr class="horizontalline">
+    <section class="thirdsection">
+      <footer>
+        <div class="leftnote">
+          &copy; All Right Reserved
+        </div>
+        <div class="rightnote">
+          <a href="https://www.linkedin.com/in/shubhdeep-singh-maan-06328a304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+            <button class="buttons">linkdin</button>
+          </a>
+          <button class="buttons">Github</button>
+          <button class="buttons" id="myBtn" onclick="ScrollTop()">Scroll Top</button>
+        </div>
+      </footer>
+    </section>
+  </main>
+  <script>
+    let mybutton = document.getElementById("myBtn");
+    function ScrollTop() {
+      document.documentElement.scrollTop = 0;
+      document.body.scrollTop = 0;
+    }
+  </script>
+</body>
